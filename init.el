@@ -30,3 +30,9 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start)))
+
+(setq-default dotspacemacs-configuration-layers '(osx))
+(hybrid-mode ())
+
+
+
